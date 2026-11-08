@@ -1,0 +1,7 @@
+main {
+  @apply lg:mt-26 mt-12;
+}
+
+.grecaptcha-badge {
+  visibility: hidden !important;
+}

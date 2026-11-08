@@ -1,0 +1,19 @@
+.terms-text {
+  @apply font-z;
+
+  ul {
+    @apply pl-5 list-disc;
+  }
+
+  .subtitle-item {
+    @apply mt-16 mb-0 uppercase font-c;
+  }
+
+  h2 {
+    @apply font-z lg:text-[36px] text-[24px] font-medium leading-[120%] lg:tracking-[-1.08px] tracking-[-1px];
+  }
+
+  p, li {
+    @apply text-[14px] font-normal tracking-[-0.14px] text-navy leading-[150%] my-4;
+  }
+}

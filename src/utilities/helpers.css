@@ -1,0 +1,10 @@
+.hide-br {
+  @media all and (max-width: 1024px) {
+    br {
+      display: none;
+    }
+  }
+}
+
+.search-icon {
+}

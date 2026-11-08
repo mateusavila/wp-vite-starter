@@ -1,0 +1,16 @@
+.btn-primary {
+  @apply bg-navy text-white px-6 py-3 rounded-full font-z font-medium hover:opacity-90 transition-opacity;
+}
+
+.btn-secondary {
+  @apply bg-white text-navy border border-navy px-6 py-3 rounded-full font-z font-medium hover:bg-navy hover:text-white transition-colors;
+}
+
+.has-link a {
+  @apply underline hover:no-underline;
+}
+
+[data-go-to].is-active {
+  font-weight: 600;
+  color: var(--color-navy);
+}

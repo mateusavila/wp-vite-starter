@@ -1,0 +1,40 @@
+@theme {
+  /* colors */
+  --color-navy: #112240;
+  --color-navy-border: rgba(28, 45, 101, 0.2);
+  --color-navy-darker: rgba(17, 34, 64, 0.2);
+  --color-navy-bg-list: rgba(17, 34, 64, 0.05);
+  --color-gold: #DCA642;
+  --color-warning: rgba(220, 166, 66, 0.2);
+  --color-trout: #4C515A;
+  --color-strong-grey: #3A3A3A;
+  --color-hydrocarbon: #4A5565;
+  --color-fresh-blue: #B8C8D7;
+  --color-white-gray: #F3F4F5;
+  --color-red: #FF0000;
+  --color-medium-gray: #788B9A;
+  --color-spider-lullaby: #CDD5E3;
+
+  /* shadows */
+  --shadow-negative: 0 -25px 50px -12px #112240;
+  --shadow-positive: 0 25px 50px -12px #112240;
+
+  /* fonts */
+  --font-z: system-ui, sans-serif;
+  --font-c: system-ui, sans-serif;
+
+  /* sizes */
+  --spacing-half: 50%;
+
+  /* breakpoints */
+  --breakpoint-figma: 1440px;
+  --breakpoint-x1400: 1400px;
+  --breakpoint-xsm: 480px;
+  --breakpoint-xxsm: 380px;
+}
+
+@custom-variant data-open (&[data-open]);
+@custom-variant data-active (&[data-active]);
+@custom-variant data-selected (&[data-selected]);
+@custom-variant data-inactive (&[data-inactive]);
+@custom-variant hfull (@media all and (min-height: 901px));
